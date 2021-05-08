@@ -1,0 +1,170 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+	
+}
+
+/*Global*/
+.container{
+	width:80%;
+	margin:auto;
+	oferflow:hidden;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+/*header*/
+header{
+	background:#35434a;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#e8491d 3px solid;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:16px;
+}
+
+
+header li{
+	display:inline;
+	padding: 0 20px 0 20px;
+
+	
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:10px;
+}
+
+header .highlight, header .current a{
+	color:#e8491d;
+	font-weight:bold;
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight:bold
+}
+
+/* Rules */
+#rules{
+	min-height:400px;
+	text-align:center;
+	color:#000000;
+}
+
+#rules h1{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+
+#rules p{
+	font-size:20px;
+}
+
+/* Members */
+#members h1{
+	text-align:center;
+	font-size:50px;
+}
+
+#members .user{
+	text-align:center;
+	width:50%;
+	margin-left:320px;
+}
+
+
+#members .profilelink{
+	color:#000000;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:30px;
+	padding:10px
+	
+}
+
+#members a:hover{
+	color:#cccccc;
+	font-weight:bold
+}
+
+
+footer{
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#e8491d;
+	text-align:center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #35434a;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #D9921E;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #D9921E;}
+
+.articleTitle{
+	color:#e8491d;
+	font-size:40px;
+}
+
