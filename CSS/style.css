@@ -176,6 +176,17 @@ footer{
 }
 
 .video{
-	margin:10px 200px 10px 200px;
+	position:relative;
+	padding-bottom:56.25%;
+	height:0;
+	overflow:hidden;
+}
+
+.video iframe, .video object, .video embed{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
 
