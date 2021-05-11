@@ -46,6 +46,14 @@ header #branding{
 	float:left;
 }
 
+.logo{
+	width:64px;
+	position:relative;
+	left:-260px;
+	bottom:15px
+	
+}
+
 header #branding h1{
 	margin:0;
 }
