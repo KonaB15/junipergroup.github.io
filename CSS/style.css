@@ -47,10 +47,10 @@ header #branding{
 }
 
 .logo{
-	width:64px;
+	width:60px;
 	position:relative;
-	left:-260px;
-	bottom:15px
+	left:-20%;
+	bottom:15px;
 	
 }
 
