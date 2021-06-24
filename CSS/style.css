@@ -13,6 +13,11 @@ body{
 	oferflow:hidden;
 }
 
+.headerContainer{
+	width:90%;
+	margin:auto;
+}
+
 ul{
 	margin:0;
 	padding:0;
@@ -44,18 +49,25 @@ header li{
 
 header #branding{
 	float:left;
-}
-
-.logo{
-	width:60px;
-	position:relative;
-	left:-260px;
-	bottom:15px;
+	margin-top:auto;
+	margin-bottom:auto;
+	vertical-align:middle;
+	
+	
+	
 	
 }
 
+
+.logo{
+	width:14%;
+	padding-right:10px;
+	
+
+}
+
 header #branding h1{
-	margin:0;
+	display:inline;
 }
 
 header nav{
@@ -65,6 +77,10 @@ header nav{
 
 header .highlight, header .current a{
 	color:#e8491d;
+	font-weight:bold;
+}
+
+header .highlight, header .other a{
 	font-weight:bold;
 }
 
